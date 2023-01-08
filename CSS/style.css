@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    width: 70%;
+    padding: 20px;
+    margin: auto;
+    background-color: aqua;
+}
+.Parent{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    background-color: blue;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.child{
+    width: 200px;
+    height: 200px;
+    background-color: #fff;
+}
+.btn-box{
+    text-align: center;
+    margin-top: 20px;
+}
+#Btn{
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
